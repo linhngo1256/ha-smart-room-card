@@ -119,7 +119,7 @@ The headline feature of v1.1. Instead of running automation logic inside the bro
 
 The **HA Smart Room Integration** lives in a separate repository and makes automation run server-side — working 24/7 regardless of whether the browser is open.
 
-> 📖 **Full installation guide:** [github.com/doanlong1412/ha-smart-room](https://github.com/doanlong1412/ha-smart-room)
+> 📖 **Full installation guide:** [linhngo1256/ha-smart-room-card](linhngo1256/ha-smart-room-card)
 
 **Quick steps:**
 
