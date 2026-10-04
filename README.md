@@ -95,7 +95,7 @@ The headline feature of v1.1. Instead of running automation logic inside the bro
 
 > If the button doesn't work:
 > **HACS → Frontend → ⋮ → Custom repositories**
-> URL: `https://github.com/doanlong1412/ha-smart-room-card` → Type: **Dashboard** → Add
+> URL: `linhngo1256/ha-smart-room-card` → Type: **Dashboard** → Add
 
 **Step 2:** Search **HA Smart Room Card** → Install
 
@@ -104,7 +104,7 @@ The headline feature of v1.1. Instead of running automation logic inside the bro
 ---
 
 #### Manual install (alternative)
-1. Download [`ha-smart-room-card.js`](https://github.com/doanlong1412/ha-smart-room-card/releases/latest)
+1. Download [`ha-smart-room-card.js`](linhngo1256/ha-smart-room-card)
 2. Copy to `/config/www/ha-smart-room-card.js`
 3. Go to **Settings → Dashboards → Resources → Add resource**:
    ```
@@ -127,7 +127,7 @@ The **HA Smart Room Integration** lives in a separate repository and makes autom
 
 Add:
 ```
-URL:  https://github.com/doanlong1412/ha-smart-room
+URL:  linhngo1256/ha-smart-room-card
 Type: Integration
 ```
 
