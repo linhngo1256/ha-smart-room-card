@@ -91,7 +91,7 @@ The headline feature of v1.1. Instead of running automation logic inside the bro
 
 **Step 1:** Add to HACS:
 
-[![Open HACS Repository](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=doanlong1412&repository=ha-smart-room-card&category=plugin)
+[![Open HACS [![Open HACS Repository](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=linhngo1256&repository=ha-smart-room-card&category=plugin)
 
 > If the button doesn't work:
 > **HACS → Frontend → ⋮ → Custom repositories**
