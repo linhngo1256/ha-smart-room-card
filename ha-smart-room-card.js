@@ -5968,7 +5968,7 @@ const HSRC_TRANSLATIONS = {
     edSyncIntDesc: 'Chạy server-side — hoạt động kể cả khi đóng browser, đồng bộ hoàn hảo mọi thiết bị',
     edSyncIntSetup: '✅ <b>Cài đặt một lần:</b>',
     edSyncIntStep1: 'HACS → Frontend → ⋮ → Custom repositories',
-    edSyncIntStep1b: 'URL: <code>https://github.com/doanlong1412/ha-smart-room-card</code> → Type: <b>Integration</b>',
+    edSyncIntStep1b: 'URL: <code>https://github.com/linhngo1256/ha-smart-room-card</code> → Type: <b>Integration</b>',
     edSyncIntStep2: 'Tìm <b>HA Smart Room</b> → Install → Restart HA',
     edSyncIntStep3: 'Settings → Devices & Services → Add Integration → <b>HA Smart Room</b>',
     edSyncIntStep4: 'Quay lại card, nhấn Lưu — card tự đăng ký phòng với integration ✨',
@@ -6071,7 +6071,7 @@ const HSRC_TRANSLATIONS = {
     edSyncIntDesc: 'Runs server-side — works even when browser is closed, perfect sync across all devices',
     edSyncIntSetup: '✅ <b>One-time setup:</b>',
     edSyncIntStep1: 'HACS → Frontend → ⋮ → Custom repositories',
-    edSyncIntStep1b: 'URL: <code>https://github.com/doanlong1412/ha-smart-room-card</code> → Type: <b>Integration</b>',
+    edSyncIntStep1b: 'URL: <codehttps://github.com/linhngo1256/ha-smart-room-card</code> → Type: <b>Integration</b>',
     edSyncIntStep2: 'Find <b>HA Smart Room</b> → Install → Restart HA',
     edSyncIntStep3: 'Settings → Devices & Services → Add Integration → <b>HA Smart Room</b>',
     edSyncIntStep4: 'Back to card, click Save — card auto-registers with integration ✨',
@@ -6366,7 +6366,7 @@ const HSRC_TRANSLATIONS = {
     edSyncIntDesc: 'Draait server-side — werkt ook bij gesloten browser',
     edSyncIntSetup: '✅ <b>Eenmalige instelling:</b>',
     edSyncIntStep1: 'HACS → Frontend → ⋮ → Aangepaste repositories',
-    edSyncIntStep1b: 'URL: <code>https://github.com/doanlong1412/ha-smart-room-card</code> → Type: <b>Integration</b>',
+    edSyncIntStep1b: 'URL: <code>https://github.com/linhngo1256/ha-smart-room-card</code> → Type: <b>Integration</b>',
     edSyncIntStep2: '<b>HA Smart Room</b> zoeken → Installeren → HA herstarten',
     edSyncIntStep3: 'Instellingen → Apparaten & Diensten → Integratie toevoegen → <b>HA Smart Room</b>',
     edSyncIntStep4: 'Terug naar kaart, Opslaan klikken — kaart registreert automatisch ✨',
@@ -6455,7 +6455,7 @@ const HSRC_TRANSLATIONS = {
     edSyncIntDesc: 'Działa po stronie serwera — działa nawet przy zamkniętej przeglądarce',
     edSyncIntSetup: '✅ <b>Jednorazowa konfiguracja:</b>',
     edSyncIntStep1: 'HACS → Frontend → ⋮ → Niestandardowe repozytoria',
-    edSyncIntStep1b: 'URL: <code>https://github.com/doanlong1412/ha-smart-room-card</code> → Typ: <b>Integration</b>',
+    edSyncIntStep1b: 'URL: <code>https://github.com/linhngo1256/ha-smart-room-card</code> → Typ: <b>Integration</b>',
     edSyncIntStep2: 'Znajdź <b>HA Smart Room</b> → Zainstaluj → Zrestartuj HA',
     edSyncIntStep3: 'Ustawienia → Urządzenia & Usługi → Dodaj integrację → <b>HA Smart Room</b>',
     edSyncIntStep4: 'Wróć do karty, kliknij Zapisz — karta rejestruje się automatycznie ✨',
@@ -6900,7 +6900,7 @@ const HSRC_TRANSLATIONS = {
     edSyncIntDesc: 'Corre no servidor — funciona mesmo com browser fechado',
     edSyncIntSetup: '✅ <b>Configuração única:</b>',
     edSyncIntStep1: 'HACS → Frontend → ⋮ → Repositórios personalizados',
-    edSyncIntStep1b: 'URL: <code>https://github.com/doanlong1412/ha-smart-room-card</code> → Tipo: <b>Integration</b>',
+    edSyncIntStep1b: 'URL: <code>https://github.com/linhngo1256/ha-smart-room-card</code> → Tipo: <b>Integration</b>',
     edSyncIntStep2: 'Encontrar <b>HA Smart Room</b> → Instalar → Reiniciar HA',
     edSyncIntStep3: 'Configurações → Dispositivos & Serviços → Adicionar integração → <b>HA Smart Room</b>',
     edSyncIntStep4: 'Voltar ao card, clicar Guardar — o card regista-se automaticamente ✨',
@@ -7003,7 +7003,7 @@ sl: {
     edSyncIntDesc: 'Deluje na strani strežnika — deluje tudi, ko je brskalnik zaprt, popolna sinhronizacija naprav',
     edSyncIntSetup: '✅ <b>Enkratna nastavitev:</b>',
     edSyncIntStep1: 'HACS → Frontend → ⋮ → Custom repositories',
-    edSyncIntStep1b: 'URL: <code>https://github.com/doanlong1412/ha-smart-room-card</code> → Tip: <b>Integration</b>',
+    edSyncIntStep1b: 'URL: <code>https://github.com/linhngo1256/ha-smart-room-card</code> → Tip: <b>Integration</b>',
     edSyncIntStep2: 'Poišči <b>HA Smart Room</b> → Namesti → Ponovni zagon HA',
     edSyncIntStep3: 'Nastavitve → Naprave in storitve → Dodaj integracijo → <b>HA Smart Room</b>',
     edSyncIntStep4: 'Vrni se na kartico, pritisni Shrani — kartica se samodejno registrira ✨',
@@ -7157,13 +7157,16 @@ class HASmartRoomCardEditor extends HTMLElement {
   </div>` : ''}
 </div>`;
   }
-
-  _entityField(key, label, domain) {
-    return `
+_entityField(key, label, domain) {
+  return `
 <div class="row">
   <label>${label}</label>
-  <ha-entity-picker data-key="${key}" data-domain="${domain}" allow-custom-entity></ha-entity-picker>
+  <ha-entity-picker
+    data-key="${key}"
+    data-domain="${domain}">
+  </ha-entity-picker>
 </div>`;
+}
   }
 
   // ── Default device definitions (language-aware) ──────────────────────────
@@ -7279,14 +7282,26 @@ class HASmartRoomCardEditor extends HTMLElement {
     <input class="dv-name-inp" type="text" data-dv-label="${d.id}" value="${labelVal}" placeholder="${labelPlaceholder}"/>
     <button class="dv-del-btn" data-dv-del="${d.id}" title="${t.delDevTitle}">✕</button>
   </div>
-  <ha-entity-picker class="dv-picker" data-key="${ek}" data-domain="${domain}" allow-custom-entity></ha-entity-picker>${d.id === 'ocam' ? `
+ <ha-entity-picker
+  class="dv-picker"
+  data-key="${ek}"
+  data-domain="${domain}">
+</ha-entity-picker>${d.id === 'ocam' ? `
   <div class="dv-mdi-row" style="margin-top:6px">
     <span class="dv-mdi-lbl">⚡ Power sensor (optional):</span>
-    <ha-entity-picker class="dv-picker" data-key="ocam_power_entity" data-domain="sensor" allow-custom-entity></ha-entity-picker>
+    <ha-entity-picker
+  class="dv-picker"
+  data-key="ocam_power_entity"
+  data-domain="sensor">
+</ha-entity-picker>
   </div>` : ''}${!isDefault && d.type === 'ocam' ? `
   <div class="dv-mdi-row" style="margin-top:6px">
     <span class="dv-mdi-lbl">⚡ Power sensor (optional):</span>
-    <ha-entity-picker class="dv-picker" data-key="${d.id}_power_entity" data-domain="sensor" allow-custom-entity></ha-entity-picker>
+    <ha-entity-picker
+  class="dv-picker"
+  data-key="${d.id}_power_entity"
+  data-domain="sensor">
+</ha-entity-picker>
   </div>` : ''}${mdiRow}
 </div>`;
   }
@@ -8281,5 +8296,5 @@ console.groupCollapsed(
   'color:#aaa;font-size:11px;font-weight:400;'
 );
 console.log('%c By @doanlong1412 🇻🇳', 'color:#00ebff;font-weight:600;');
-console.log('%c https://github.com/doanlong1412/ha-smart-room-card', 'color:#888;font-size:11px;');
+console.log('%c https://github.com/linhngo1256/ha-smart-room-card', 'color:#888;font-size:11px;');
 console.groupEnd();
